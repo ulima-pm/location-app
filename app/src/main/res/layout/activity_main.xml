@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="pe.edu.ulima.locationapp.MainActivity">
@@ -12,5 +13,14 @@
         android:layout_height="wrap_content"
         android:text="Localizacion"
         android:onClick="localizar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localizacion GPS/RED"
+        android:onClick="localizarGPS"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tviLocalizacion"/>
 
 </LinearLayout>
